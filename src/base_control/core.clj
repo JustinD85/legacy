@@ -39,4 +39,7 @@
 (defn getCards []
 (j/query db "select * from cards as result" ))
 
+"select * from cards where card.id === 3"
+;.select('cards').where('card.id === 3')
+
 
